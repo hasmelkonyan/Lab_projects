@@ -1,7 +1,3 @@
-import zlib
-import base64
-
-
 def compress_file(file, comp_file):
     with open(file) as f:
         text = f.read()
